@@ -1,0 +1,37 @@
+{
+    "name": "chujc/v-admin-tools",
+    "description": "Laravel or lumen admin VAdmin develop tools",
+    "keywords": [
+        "laravel",
+        "lumen",
+        "api",
+        "manage",
+        "restful",
+        "admin"
+    ],
+    "version": "1.0.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "john_chu",
+            "email": "john1668@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7",
+        "chujc/v-admin": "^0.2",
+        "chujc/laravel-generator": "^1.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ChuJC\\Admin\\AdminToolsServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "ChuJC\\Admin\\": "src/"
+        }
+    }
+}
